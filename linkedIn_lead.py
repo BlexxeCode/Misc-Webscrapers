@@ -31,10 +31,10 @@ time.sleep(5)
 driver.find_element('css selector','a.main__sign-in-link').click()
 time.sleep(3)
 username = driver.find_element('id','username')
-username.send_keys('andrewsaintvil6@gmail.com')
+username.send_keys('')
 
 password = driver.find_element('id','password')
-password.send_keys('7bG5rjYe8zN$')
+password.send_keys('')
 
 time.sleep(2)
 driver.find_element('css selector','button.btn__primary--large.from__button--floating').click()
